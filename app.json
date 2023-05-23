@@ -1,0 +1,62 @@
+{
+    "lazyCodeLoading": "requiredComponents",
+    "usingComponents": {
+        "van-loading": "/@vant/weapp/dist/loading"
+    },
+    "pages": [
+        "pages/index/index",
+        "pages/test/test",
+        "pages/login/login",
+        "pages/add/add_xueshi",
+        "pages/index_page1/page1",
+        "pages/index_page2/page2",
+        "pages/index_page3/page3",
+        "pages/index_page4/page4",
+        "pages/index_page1/page1_pages/page1_one",
+        "pages/index_page2/page2_inner/page2_inner_1",
+        "pages/index_page1/page1_page_inner_1/page1_inner1",
+        "pages/index_page3/page3_inner1/page3_inner1",
+        "pages/index_page4/page4_inner/page4_inner1",
+        "pages/login/content_page/content",
+        "pages/login/info_bind/info_bind",
+        "pages/login/jumptoweb1/jumptoweb1",
+        "pages/login/creator/creator_info"
+    ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#a7d3e8",
+        "navigationBarTitleText": "学时认定",
+        "backgroundColor": "#efefef",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 100,
+        "backgroundTextStyle": "dark"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/icon/home.png",
+                "selectedIconPath": "images/icon/_home.png"
+            },
+            {
+                "pagePath": "pages/test/test",
+                "text": "明细",
+                "iconPath": "images/icon/明细.png",
+                "selectedIconPath": "images/icon/明细_.png"
+            },
+            {
+                "pagePath": "pages/add/add_xueshi",
+                "text": "记录",
+                "iconPath": "/images/icon/add.png",
+                "selectedIconPath": "/images/icon/_add.png"
+            },
+            {
+                "pagePath": "pages/login/login",
+                "text": "个人",
+                "iconPath": "/images/icon/my.png",
+                "selectedIconPath": "/images/icon/_my.png"
+            }
+        ]
+    }
+}
